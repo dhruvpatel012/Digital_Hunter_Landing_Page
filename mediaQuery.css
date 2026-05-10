@@ -1,0 +1,407 @@
+
+/* Large desktops  */
+@media (min-width: 1400px) {
+
+    /* MAIN-CONTAINER */
+    .main,
+    .section-container {
+        max-width: 1400px;
+    }
+}
+
+/* Medium desktops */
+@media (max-width: 1200px) {
+
+    /* HEADING */
+    .heading h1 {
+        font-size: 5.5rem;
+    }
+
+    /* RIGHT-SECTION */
+    .right {
+        width: 180px;
+    }
+
+    /* STATS-WRAPPER */
+    .stats-wrapper {
+        gap: 2.5rem;
+    }
+
+    /* PROCESS-STEPS */
+    .process-steps {
+        gap: 0.8rem;
+    }
+}
+
+/* Tablets / Small desktops */
+@media (max-width: 992px) {
+
+    /* HERO-SECTION */
+    .hero {
+        flex-direction: column;
+        min-height: auto;
+        padding-bottom: 3rem;
+        text-align: center;
+    }
+
+    /* LEFT-SECTION */
+    .left {
+        align-items: center;
+        order: 1;
+    }
+
+    /* CENTER-SECTION */
+    .center {
+        order: 2;
+    }
+
+    /* RIGHT-SECTION */
+    .right {
+        order: 3;
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+        gap: 2.5rem;
+        flex-wrap: wrap;
+    }
+
+    /* FEATURE-HOVER */
+    .feature:hover {
+        transform: none;
+    }
+
+    /* PARAGRAPH */
+    .paragraph p {
+        max-width: 100%;
+    }
+
+    /* HEADING */
+    .heading h1 {
+        font-size: 4.5rem;
+    }
+
+    /* NAVBAR-LINKS */
+    .nav-links {
+        display: none;
+        background-color: rgb(12, 194, 158);
+        position: absolute;
+        top: 90px;
+        left: 0px;
+        width: 100%;
+        height: 8vh;
+        gap: 45px;
+        justify-content: center;
+    }
+
+    /* BARS-TOGGLE */
+    #bars:checked~.nav-links {
+        display: flex;
+        z-index: 10;
+    }
+
+    /* BARS-MENU */
+    .bars-menu {
+        display: block;
+    }
+
+    /* NAV-LINKS-ANCHOR */
+    .nav-links a {
+        color: black;
+        font-size: 15px;
+    }
+
+    /* STAR-IMAGES */
+    .star-left,
+    .star-right {
+        width: 100px;
+    }
+
+    /* STAR-LEFT */
+    .star-left {
+        left: -10%;
+        top: -50%;
+    }
+
+    /* STAR-RIGHT */
+    .star-right {
+        right: -10%;
+        top: -50%;
+    }
+
+    /* STEP-CONNECTOR */
+    .step-connector {
+        display: none;
+    }
+
+    /* PROCESS-STEPS */
+    .process-steps {
+        justify-content: center;
+    }
+
+    /* PROCESS-STEP */
+    .process-step {
+        min-width: 140px;
+        max-width: 180px;
+    }
+
+    /* FOOTER-TOP */
+    .footer-top {
+        flex-direction: row;
+    }
+
+}
+
+/* (landscape phones, less than 768px) */
+@media (max-width: 768px) {
+
+    /* FEATURE-HOVER */
+    .feature:hover {
+        transform: none;
+    }
+
+    /* PARAGRAPH */
+    .paragraph p {
+        max-width: 100%;
+    }
+
+    /* HEADING */
+    .heading h1 {
+        font-size: 3.4rem;
+    }
+
+    /* NAVBAR-LINKS */
+    .nav-links {
+        top: 90px;
+        height: 7vh;
+        gap: 35px;
+    }
+
+    /* LEFT-SECTION */
+    .left {
+        gap: 3rem;
+    }
+
+    /* STAR-IMAGES */
+    .star-left,
+    .star-right {
+        width: 80px;
+    }
+
+    /* STAR-LEFT */
+    .star-left {
+        left: -10%;
+        top: -70%;
+    }
+
+    /* STAR-RIGHT */
+    .star-right {
+        right: -10%;
+        top: -50%;
+    }
+
+    /* STAT-NUMBER */
+    .stat h2 {
+        font-size: 1rem;
+    }
+
+    /* STAT-LABEL */
+    .stat p {
+        font-size: 0.5rem;
+    }
+
+    /* CARD-BADGE */
+    .card-badge {
+        position: absolute;
+        bottom: 12px;
+        left: 14px;
+        background: rgba(0, 0, 0, 0.7);
+        font-size: 0.5rem;
+        padding: 0.3rem 0.7rem;
+
+    }
+
+    /* STEP-CONNECTOR */
+    .step-connector {
+        display: none;
+    }
+
+    /* PROCESS-STEPS */
+    .process-steps {
+        justify-content: center;
+    }
+
+    /* PROCESS-STEP */
+    .process-step {
+        min-width: 140px;
+        max-width: 180px;
+    }
+
+    /* FOOTER-TOP */
+    .footer-top {
+        flex-direction: row;
+    }
+
+}
+
+
+/* Mobile */
+@media (max-width: 600px) {
+
+    /* MAIN-CONTAINER */
+    .main,
+    .section-container {
+        padding-left: 1.2rem;
+        padding-right: 1.2rem;
+    }
+
+    /* NAVBAR-LINKS */
+    .nav-links {
+        display: none;
+        background-color: rgb(12, 194, 158);
+        position: absolute;
+        top: 70px;
+        left: 0px;
+        width: 100%;
+        height: 8vh;
+        gap: 25px;
+        justify-content: center;
+    }
+
+    /* NAV-LINKS-ANCHOR */
+    .nav-links a {
+        color: black;
+        font-size: 0.5rem;
+    }
+
+    /* LOGO */
+    .logo img {
+        width: 100px;
+    }
+
+    /* NAV-BUTTON */
+    .nav-btn button {
+        padding: 0.75rem 1rem;
+        font-size: 0.5rem;
+        gap: 0.5rem;
+    }
+
+    /* BARS-ICON */
+    .bars-menu i {
+        font-size: 1rem;
+    }
+
+    /* EYEBROW */
+    .eyebrow {
+        font-size: 1rem;
+    }
+
+    /* HEADING */
+    .heading h1 {
+        font-size: 3rem;
+    }
+
+    /* BTN-1 */
+    .btn-1 {
+        font-size: 0.7rem;
+        padding: 1rem 1rem;
+    }
+
+    /* BTN-2 */
+    .btn-2 {
+        font-size: 0.7rem;
+    }
+
+    /* RIGHT-SECTION */
+    .right {
+        gap: 2rem;
+    }
+
+    /* ICON-BOX */
+    .icon-box {
+        height: 40px;
+        width: 40px;
+    }
+
+    /* ICON-BOX-ICON*/
+    .icon-box i {
+        font-size: 1.2rem;
+    }
+
+    /* FEATURE-LABEL */
+    .feature p {
+        font-size: 0.6rem;
+    }
+
+    /* STAR-IMAGES */
+    .star-left,
+    .star-right {
+        width: 60px;
+    }
+
+    /* STAR-LEFT */
+    .star-left {
+        left: -15%;
+        top: -50%;
+    }
+
+    /* STAR-RIGHT */
+    .star-right {
+        right: -15%;
+        top: -50%;
+    }
+
+    /* STATS-WRAPPER */
+    .stats-wrapper {
+        gap: 1.5rem;
+    }
+
+    /* STAT-NUMBER */
+    .stat h2 {
+        font-size: 0.9rem;
+    }
+
+    /* STAT-LABEL */
+    .stat p {
+        font-size: 0.38rem;
+    }
+
+    /* DIVIDER */
+    .divider {
+        display: none;
+    }
+
+    /* SECTION-TITLE-ROW */
+    .section-title-row{
+        gap: 1rem;
+    }
+
+    /* SECTION-TITLE */
+    .section-title {
+        font-size: 1.2rem;
+    }
+
+    /* ARROW-BTN */
+    .arrow-btn {
+        width: 36px;
+        height: 36px;
+        font-size: 1rem;
+    }
+
+    /* PROJECTS-GRID */
+    .projects-grid {
+        flex-direction: column;
+    }
+
+    /* FOOTER-BOTTOM */
+    .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /* FOOTER-LINKS */
+    .footer-links {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.8rem;
+    }
+}
