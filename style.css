@@ -868,9 +868,6 @@ ul {
     transition: color 0.3s;
 }
 
-.contact-list span{
-     color: var(--grey-mid);
-}
 
 .contact-list li:hover {
     color: var(--grey-light);
