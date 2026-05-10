@@ -670,7 +670,7 @@ ul {
     cursor: default;
 }
 
-.process-step:hover {
+.process-step:hover{
     border-color: var(--cyan-border);
     background: rgba(0, 255, 213, 0.04);
     transform: translateY(-6px);
